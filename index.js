@@ -42,14 +42,12 @@ function appendCat(name){
 }
 
 appendCat("Broom")
-console.log(catsCopy);
 
 function prependCat(name){
     beforeEach()
     return [name, ...cats]
 }
-prependCat("Arnold")
-console.log(catsCopy);
+prependCat("Arnold");
 
 function removeLastCat(){
     beforeEach()
